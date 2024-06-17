@@ -24,7 +24,6 @@ func preprocessIssue(issue git.Issue) string {
 		os.Exit(1) // Exit with an error code
 	}
 	var jsonString = string(jsonData) // Print the JSON output
-	//	fmt.Println("Preprocessed JSON : %s", jsonString)
 	return jsonString
 }
 

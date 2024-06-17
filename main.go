@@ -19,5 +19,5 @@ func main() {
 	duplicateIndex := processing.GenerateCosineMatrix(embeddings, issues)
 
 	//Print the Similar issues index
-	printCosIndex(duplicateIndex)
+	printPrettySearchIndex(duplicateIndex)
 }
